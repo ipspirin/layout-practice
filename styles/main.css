@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:link,
+a:visited {
+  text-decoration-line: none;
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+header {
+  background-color: blueviolet;
+  min-height: 10vh;
+}
+
+ul {
+  list-style: none;
+}
+
+.horizontal-nav {
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  justify-items: center;
+}
+
+.horizontal-nav li {
+  display: inline-block;
+}
+
+li a {
+  padding: 0 1rem;
+
+  background-color: white;
+  border: 2px solid red;
+}
+
+/*
+  Заметки по верхнему нав. меню
+
+  1. horizontal-nav убрать промежутки между элементами списка
+  2. разобраться как работает выравнивание элеметнов в контейнере (см. horizontal-nav: justify-items). Почему не срабатывает align-items?
+  3. добиться того, чтобы ссылки были по высоте равны header тегу
+  4. добиться того, чтобы ссылки были по ширине равны li и при переводе курсора с одной ссылки на другую курсор оставался в виде указательного пальца.
+ 
+  Заметки по основному контенту
+
+  1. разместить основной контент с "оглавлением" бок о бок
+*/
